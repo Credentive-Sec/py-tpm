@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py-tpm"
+version = "0.1.0"
+description = "Python library for interacting with a TPM"
+authors = ["Robert Sherwood"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "py_tpm", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
