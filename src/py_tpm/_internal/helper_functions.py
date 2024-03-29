@@ -1,4 +1,4 @@
-def bytesFromList(l):
+def bytesFromList(l): # Do we need this one?
     return bytes(l)
 
 def intToTpm(val, valLen):
